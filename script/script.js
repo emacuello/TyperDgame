@@ -62,12 +62,12 @@ let actualizarTiempo = () => {
 
 let timeInterval = setInterval(actualizarTiempo, 1000);
 actualizarTiempo()
-let cod = "<button onclick='location.reload()'>Volvé  empezar</button>"
+let cod = "<button class='btn' onclick='location.reload()'>Volvé  empezar</button>"
 let titul = "<h1>El tiempo ha terminado!</h1>"
 let game = document.getElementById('end-game-container')
 let gameOver = () => {
     document.querySelector('.main').style.display = 'none';
-    let puntaje = "<p>Tu puntaje ha sido de " +score+ " puntos</p>";
+    let puntaje = "<p class='punt'>Tu puntaje ha sido de " +score+ " puntos</p>";
     game.innerHTML = titul + puntaje + cod
 }
 
