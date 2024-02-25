@@ -20,6 +20,7 @@ body {
     border-radius:20px;
     height: auto;
     width: 400px;
+    box-shadow: 5px 5px 15px gray;
 }
 
 #text {
