@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/ab/26/01/ab26019d6a9def8082a9d5134a9e2d74.gif);
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.661);
+    border-radius:20px;
+    height: auto;
+    width: 400px;
+}
+
+#text {
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.end-game-container {
+    margin-bottom: 30px;
+}
